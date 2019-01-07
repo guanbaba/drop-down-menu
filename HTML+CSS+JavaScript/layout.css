@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+}
+.mainlist>li{
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+.mainlist>li>a,.sublist>li>a{
+	display: inline-block;
+	width: 80px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+}
+.mainlist>li>a:hover,.sublist>li>a:hover{
+	background-color: blue;
+	color: white;
+}
+.sublist{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+}
+.sublist>li{
+	list-style-type: none;
+}

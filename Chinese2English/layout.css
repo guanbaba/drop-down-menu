@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.mainlist li{
+	list-style-type: none;
+	float: left;
+}
+.mainlist li a{
+	display: inline-block;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	background-color: lightgray;
+	color: black;
+	text-decoration: none;
+}
+.mainlist li a span{
+	display: inline-block;
+	width: 100px;
+}
+.mainlist a:hover{
+	margin-top: -40px;
+	background-color: orange;
+	color: white;
+}

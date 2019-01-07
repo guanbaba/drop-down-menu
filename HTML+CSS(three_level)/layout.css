@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+}
+a{
+	display: inline-block;
+	width: 80px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+}
+a:hover{
+	background-color: blue;
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+.mainlist>li{
+	float: left;
+	position: relative;
+}
+.sublist{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+}
+.sublist>li{
+	position: relative;
+}
+.thirdlist{
+	position: absolute;
+	top: 0;
+	left: 80px;
+	display: none;
+}
+.mainlist>li:hover>.sublist{
+	display: block;
+}
+.sublist>li:hover>.thirdlist{
+	display: block;
+}
